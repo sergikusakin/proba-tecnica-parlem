@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
-    "server": "json-server --id _id --delay 500 --routes routes.json --static dist data.json"
+    "start": "json-server --id _id --delay 500 --routes routes.json --static dist data.json"
   },
   "dependencies": {
     "json-server": "^0.17.4"
